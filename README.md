@@ -36,8 +36,7 @@ Getting Started with AI on Jetson Nano
    5-2. 와이파이 셋팅 ![37](https://github.com/user-attachments/assets/05964ce6-1a6f-4f84-9cbd-5704fe5178f0)
    5-3. 모든 절차를 완료후 녹색화면이 뜸![46](https://github.com/user-attachments/assets/bece2340-179f-4737-aaf9-07ced2c41815)
 
-
-
-<b> 
+<b> 6. 쿨링팬 설치와 jtop 설치
+ ``` bash 
 
 
