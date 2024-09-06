@@ -24,7 +24,7 @@ remote: Compressing objects: 100% (11/11), done.
 remote: Total 12 (delta 0), reused 8 (delta 0), pack-reused 0
 Receiving objects: 100% (12/12), 16.48 MiB | 2.30 MiB/s, done.
 
-```
+``` bash
 cd AutoCrawler
 C:\project_ai\AutoCrawler>pip install -r requirements.txt
 ```
