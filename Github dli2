@@ -6,8 +6,11 @@ Getting Started with AI on Jetson Nano
 '''
 1. jetson nano setting 준비물
 - jetson nano 4gb
-- 5 pin micro usb adapter
-- 와이파이 동글, 쿨링팬, web cam(usb camera), sd카드, 소형모니터, Hdmi
+- c type power adapter
+- 와이파이 동글
+- 웹캠(usb camera), 또는 CSI Camera (라즈베리파이 V2)
+- 64기가 이상 마이크로SD카드 
+- 그 외 쿨링팬, 1cd, 또는 모니터. hdmi
 '''
 
 <b> 2. jetson nano에 대하여
