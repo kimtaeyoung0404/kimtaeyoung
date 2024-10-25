@@ -38,5 +38,26 @@ Getting Started with AI on Jetson Nano
 
 <b> 6. 쿨링팬 설치와 jtop 설치
  ``` bash
+#### 7. 온도
+ 확인과 쿨링팬
+***
+jtop : system monitoring tool
+terminal 열기
+```
+sudo apt install python3-pip
+sudo -H pip3 install -U jetson-stats
+```
+만약 에러가 뜨면 sudo apt-get upgrade, sudo apt-get update해준다.
+jetson-stats-4.2.3 가 써진 걸 확인.
+이제 온도를 확인하자
+```
+reboot
+jtop
+```
+이제 쿨링팬을 돌려보자
+```
+sudo sh -c 'echo 128 > /sys/devices/pwm-fan/target_pwm'
+```
+다시 온도를 확인해보자. 온도가 많이 떨어진다.
 
 
